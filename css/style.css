@@ -1,0 +1,29 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generics */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.intestazione{
+    height: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+}
+
+.logo{
+    height: 75px;
+    vertical-align: middle;
+}
+
+.main-title{
+    display: inline-block;
+    font-size: 3.5rem;
+    vertical-align: middle;
+}
