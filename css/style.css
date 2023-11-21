@@ -11,6 +11,10 @@ body{
     background-color: #f6f8f9;
 }
 
+ul{
+    list-style: none;
+}
+
 /* header */
 .intestazione{
     height: 100px;
@@ -32,8 +36,8 @@ body{
 
 /* main */
 .card{   
-    width: 60%;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     margin: 40px auto;
     border-radius: 10px;
     border-bottom: 5px solid #f6f8f9;
@@ -59,4 +63,50 @@ body{
 #higlighted{
     background-color: #42aaf0;
     color: white;
+}
+
+/* contenuto cards */
+.tab-container{
+    margin: 30px;
+}
+
+.sign{
+    display: inline-block;
+    width: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 1rem;
+    vertical-align: center;
+}
+
+.check{
+    border-color: green;
+    color: green;
+}
+
+.section-title{
+    font-size: 1.6rem;
+}
+
+.task{
+    padding: 5px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    margin: 5px;
+}
+
+.sign{
+    vertical-align: center;
+    margin: 5px;
+}
+
+.badge{
+    padding: 5px 10px;
+    margin-right: ;
+    border-radius: 15px;
+    font-size: 0.7rem;
+    color: white;
+    background-color: #45abea;
+    vertical-align: middle;
 }
