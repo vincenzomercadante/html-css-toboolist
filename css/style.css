@@ -85,6 +85,11 @@ ul{
     color: green;
 }
 
+.cross{
+    border-color: red;
+    color: red;
+}
+
 .section-title{
     font-size: 1.6rem;
 }
@@ -103,10 +108,36 @@ ul{
 
 .badge{
     padding: 5px 10px;
-    margin-right: ;
+    margin-right: 3px;
     border-radius: 15px;
     font-size: 0.7rem;
     color: white;
-    background-color: #45abea;
     vertical-align: middle;
 }
+
+.editorial{
+    background-color: #45abea;
+}
+
+.q1goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29d32;
+}
+
+.website{
+    background-color: #d863a1;
+    
+}
+
+.sales{
+    background-color: #b0c826;
+}
+
+
