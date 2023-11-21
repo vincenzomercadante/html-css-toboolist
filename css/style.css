@@ -8,13 +8,15 @@
 /* generics */
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #f6f8f9;
 }
 
 /* header */
 .intestazione{
     height: 100px;
-    line-height: 100px;
     padding-left: 20px;
+    line-height: 100px;
+    background-color: white;
 }
 
 .logo{
@@ -26,4 +28,35 @@ body{
     display: inline-block;
     font-size: 3.5rem;
     vertical-align: middle;
+}
+
+/* main */
+.card{   
+    width: 60%;
+    height: 700px;
+    margin: 40px auto;
+    border-radius: 10px;
+    border-bottom: 5px solid #f6f8f9;
+    background-color: white;
+}
+
+.button-container{
+    padding: 20px 0px 10px 50px;
+    border-bottom: 5px solid #f6f8f9;
+}
+
+.button{
+    display: inline-block;
+    padding: 3px 15px;
+    border: 2px solid #cfd4d8;
+    border-radius: 10px;
+    color: #cfd4d8;
+    line-height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#higlighted{
+    background-color: #42aaf0;
+    color: white;
 }
